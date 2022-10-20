@@ -1,0 +1,73 @@
+.calc{
+    width: 400px;
+    height:500px;
+    background: #808080;
+    margin-left: 400px;
+    
+}
+.screen{
+    color: rgba(255,255,255,0.8);
+    background: rgba(0,0,0,.6);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    width: 80%;
+    margin-left: 36px;
+    height: 50px;
+    margin-top: 30px;
+    pointer-events: none;
+    text-align: right;
+    border-radius: 2px;
+}
+
+.btn{
+    margin-left: 35px;
+    margin-top: 30px;
+    position: relative;
+    top:0;
+    height: 41px;
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
+    font-family:"Arial Bold", Gadget, Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 9px 0 11px 0;
+    border-radius: 2px;
+    float: left;
+    width: 56px;
+    background: rgba(255,255,255,0.8);
+    /* margin-left: 12px; */
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2),
+    inset 0 1px 0 rgba(255,255,255,0.6);
+    transition: all .1s;
+    cursor:pointer;
+    user-select: none;
+
+}
+.clr{
+    margin-left: 35px;
+    margin-top: 30px;
+    position: relative;
+    top:0;
+    height: 41px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-family:"Arial Bold", Gadget, Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 9px 0 11px 0;
+    border-radius: 2px;
+    float: left;
+    width: 320px;
+    background: rgba(0, 0, 0, 0.8);
+    /* margin-left: 12px; */
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2),
+    inset 0 1px 0 rgba(255,255,255,0.6);
+    transition: all .1s;
+    cursor:pointer;
+    user-select: none;
+
+}
